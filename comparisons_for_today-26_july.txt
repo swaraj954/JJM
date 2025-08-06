@@ -1,0 +1,259 @@
+Cluster based on avg coordinates of each label
+
+CLUSTER DATA
+{'Cluster 1': ['00', '01', '10'], 'Cluster 2': ['33', '32', '22'], 'Cluster 3': ['23'], 'Cluster 4': ['30', '31', '12', '13', '20', '03', '21', '11', '02']}
+1
+1
+Confusion Matrix:
+[[193   0   0  10]
+ [  0 179   3   7]
+ [  0   7  34  17]
+ [ 13   3   6 488]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 1       0.94      0.95      0.94       203
+   Cluster 2       0.95      0.95      0.95       189
+   Cluster 3       0.79      0.59      0.67        58
+   Cluster 4       0.93      0.96      0.95       510
+
+    accuracy                           0.93       960
+   macro avg       0.90      0.86      0.88       960
+weighted avg       0.93      0.93      0.93       960
+
+Accuracy: 0.93125
+
+
+------------------------------------------------------------------------
+
+
+K means on avg proba vectors:
+
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+CLUSTER DATA
+{'Cluster 1': ['01', '02', '03', '10', '11', '20', '21', '30'], 'Cluster 2': ['12', '13', '23', '31'], 'Cluster 3': ['00'], 'Cluster 4': ['22', '32', '33']}
+1
+1
+Confusion Matrix:
+[[425  49   9   0]
+ [ 38 162   0  10]
+ [ 15   0  63   0]
+ [  1   9   0 179]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 1       0.89      0.88      0.88       483
+   Cluster 2       0.74      0.77      0.75       210
+   Cluster 3       0.88      0.81      0.84        78
+   Cluster 4       0.95      0.95      0.95       189
+
+    accuracy                           0.86       960
+   macro avg       0.86      0.85      0.86       960
+weighted avg       0.87      0.86      0.86       960
+
+Accuracy: 0.8635416666666667
+
+
+---------------------------------------------------------------------------------------------
+
+
+K means on every proba vector:
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+CLUSTER DATA
+{'Cluster 1': ['12', '13', '23', '30', '31'], 'Cluster 2': ['03', '11', '20', '21', '02'], 'Cluster 3': ['00'], 'Cluster 4': ['22', '32', '33', '01', '10']}
+1
+1
+Confusion Matrix:
+[[217  45   0  10]
+ [ 42 240   2  12]
+ [  0   3  62  13]
+ [  9   9   7 289]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 1       0.81      0.80      0.80       272
+   Cluster 2       0.81      0.81      0.81       296
+   Cluster 3       0.87      0.79      0.83        78
+   Cluster 4       0.89      0.92      0.91       314
+
+    accuracy                           0.84       960
+   macro avg       0.85      0.83      0.84       960
+weighted avg       0.84      0.84      0.84       960
+
+Accuracy: 0.8416666666666667
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Spectral clustering on individual proba vectors:
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+CLUSTER DATA
+{'Cluster 1': ['02', '03', '11', '12', '13', '20', '21', '30'], 'Cluster 2': ['32', '33'], 'Cluster 3': ['22', '23', '31'], 'Cluster 4': ['00', '01', '10']}
+1
+1
+Confusion Matrix:
+[[443   0   9  13]
+ [  2  90  29   0]
+ [ 21  25 125   0]
+ [ 10   0   0 193]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 1       0.93      0.95      0.94       465
+   Cluster 2       0.78      0.74      0.76       121
+   Cluster 3       0.77      0.73      0.75       171
+   Cluster 4       0.94      0.95      0.94       203
+
+    accuracy                           0.89       960
+   macro avg       0.85      0.84      0.85       960
+weighted avg       0.88      0.89      0.89       960
+
+Accuracy: 0.8864583333333333
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

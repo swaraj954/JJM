@@ -1,0 +1,77 @@
+f2\predicted_digits_00_f2.csv:844
+f2\predicted_digits_01_f2.csv:423
+f2\predicted_digits_02_f2.csv:614
+f2\predicted_digits_03_f2.csv:552
+f2\predicted_digits_10_f2.csv:820
+f2\predicted_digits_11_f2.csv:936
+f2\predicted_digits_12_f2.csv:809
+f2\predicted_digits_13_f2.csv:858
+f2\predicted_digits_20_f2.csv:781
+f2\predicted_digits_21_f2.csv:874
+f2\predicted_digits_22_f2.csv:427
+f2\predicted_digits_23_f2.csv:598
+f2\predicted_digits_30_f2.csv:600
+f2\predicted_digits_31_f2.csv:654
+f2\predicted_digits_32_f2.csv:596
+f2\predicted_digits_33_f2.csv:710
+0        00
+1        00
+2        00
+3        00
+4        00
+         ..
+11091    33
+11092    33
+11093    33
+11094    33
+11095    33
+Length: 11096, dtype: object
+Confusion Matrix:
+[[145   0   0   0  22  14   0   0   0   0   0   0   0   0   0   0]
+ [  4   0   0   0  46  30   0   0   1   0   0   0   0   0   0   0]
+ [  0   0   0   0  10  80   0  16  14   0   0   0   0   0   0   0]
+ [  0   0   0   0   5  69   0  16  13   0   0   0   0   0   0   1]
+ [ 44   0   0   0  72  43   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0  21 130   0  38  19   0   0   0   0   0   0   0]
+ [  0   0   0   0   0  25   0 114  26   0   0   0   0   0   0   9]
+ [  0   0   0   0   0  14   0 131  17   0   0   0   0   0   0   9]
+ [  0   0   0   0   1  70   0  56  18   0   0   0   0   0   0   0]
+ [  0   0   0   0  29 102   0  24  19   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   1   0   0   0   0   0   0   0  71]
+ [  0   0   0   0   0   5   0  72   5   0   0   0   0   0   0  34]
+ [  1   0   0   0   0  35   0  61  22   0   0   0   0   0   0   0]
+ [  0   0   0   0   0  11   0 111  12   0   0   0   0   0   0  18]
+ [  0   0   0   0   0   0   0   6   0   0   0   0   0   0   0  89]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 149]]
+
+Classification Report:
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+          00       0.75      0.80      0.77       181
+          01       0.00      0.00      0.00        81
+          02       0.00      0.00      0.00       120
+          03       0.00      0.00      0.00       104
+          10       0.35      0.45      0.39       159
+          11       0.21      0.62      0.31       208
+          12       0.00      0.00      0.00       174
+          13       0.20      0.77      0.32       171
+          20       0.11      0.12      0.12       145
+          21       0.00      0.00      0.00       174
+          22       0.00      0.00      0.00        72
+          23       0.00      0.00      0.00       116
+          30       0.00      0.00      0.00       119
+          31       0.00      0.00      0.00       152
+          32       0.00      0.00      0.00        95
+          33       0.39      1.00      0.56       149
+
+    accuracy                           0.29      2220
+   macro avg       0.13      0.24      0.15      2220
+weighted avg       0.15      0.29      0.19      2220
+
+Accuracy: 0.2905405405405405

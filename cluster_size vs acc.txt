@@ -1,0 +1,559 @@
+F1
+--------------------------
+
+
+
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\SWARAJ SONAVANE>start.bat
+hi
+intialized and ready
+RUNNING
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>clus2
+'clus2' is not recognized as an internal or external command,
+operable program or batch file.
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 0': ['00', '01', '02', '03', '10', '11', '12', '13', '20', '21', '30'], 'Cluster 1': ['22', '23', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[903  48]
+ [ 40 429]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.96      0.95      0.95       951
+   Cluster 1       0.90      0.91      0.91       469
+
+    accuracy                           0.94      1420
+   macro avg       0.93      0.93      0.93      1420
+weighted avg       0.94      0.94      0.94      1420
+
+Accuracy: 0.9380281690140845
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 0': ['00', '01', '02', '03', '10', '11', '12', '13', '20', '21', '30'], 'Cluster 1': ['22', '23', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[903  48]
+ [ 40 429]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.96      0.95      0.95       951
+   Cluster 1       0.90      0.91      0.91       469
+
+    accuracy                           0.94      1420
+   macro avg       0.93      0.93      0.93      1420
+weighted avg       0.94      0.94      0.94      1420
+
+Accuracy: 0.9380281690140845
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10'], 'Cluster 0': ['02', '03', '11', '12', '13', '20', '21', '30'], 'Cluster 1': ['22', '23', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[564  48  47]
+ [ 40 429   0]
+ [ 20   0 272]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.90      0.86      0.88       659
+   Cluster 1       0.90      0.91      0.91       469
+   Cluster 2       0.85      0.93      0.89       292
+
+    accuracy                           0.89      1420
+   macro avg       0.89      0.90      0.89      1420
+weighted avg       0.89      0.89      0.89      1420
+
+Accuracy: 0.8908450704225352
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10'], 'Cluster 0': ['02', '03', '11'], 'Cluster 3': ['12', '13', '20', '21', '30'], 'Cluster 1': ['22', '23', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[114   0  46  94]
+ [  0 429   0  40]
+ [ 20   0 272   0]
+ [ 18  48   1 338]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.75      0.45      0.56       254
+   Cluster 1       0.90      0.91      0.91       469
+   Cluster 2       0.85      0.93      0.89       292
+   Cluster 3       0.72      0.83      0.77       405
+
+    accuracy                           0.81      1420
+   macro avg       0.80      0.78      0.78      1420
+weighted avg       0.81      0.81      0.80      1420
+
+Accuracy: 0.8119718309859155
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10'], 'Cluster 0': ['02', '03', '11'], 'Cluster 3': ['12', '13', '20', '21', '30'], 'Cluster 1': ['22', '32', '33'], 'Cluster 4': ['23', '31']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[114   0  46  94   0]
+ [  1 249   0  50   0]
+ [ 20   0 272   0   0]
+ [ 21  10   1 371   2]
+ [  1 129   0  38   1]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.73      0.45      0.55       254
+   Cluster 1       0.64      0.83      0.72       300
+   Cluster 2       0.85      0.93      0.89       292
+   Cluster 3       0.67      0.92      0.77       405
+   Cluster 4       0.33      0.01      0.01       169
+
+    accuracy                           0.71      1420
+   macro avg       0.64      0.63      0.59      1420
+weighted avg       0.67      0.71      0.66      1420
+
+Accuracy: 0.7091549295774648
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10'], 'Cluster 0': ['02', '11'], 'Cluster 5': ['03'], 'Cluster 3': ['12', '13', '20', '21', '30'], 'Cluster 1': ['22', '32', '33'], 'Cluster 4': ['23', '31']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[ 84   0  50  71   0   0]
+ [  1 249   0  50   0   0]
+ [ 13   0 278   0   0   1]
+ [ 20  10   1 372   2   0]
+ [  1 129   0  38   1   0]
+ [ 10   0   6  30   0   3]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.65      0.41      0.50       205
+   Cluster 1       0.64      0.83      0.72       300
+   Cluster 2       0.83      0.95      0.89       292
+   Cluster 3       0.66      0.92      0.77       405
+   Cluster 4       0.33      0.01      0.01       169
+   Cluster 5       0.75      0.06      0.11        49
+
+    accuracy                           0.70      1420
+   macro avg       0.64      0.53      0.50      1420
+weighted avg       0.65      0.70      0.63      1420
+
+Accuracy: 0.6950704225352112
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10'], 'Cluster 0': ['02', '11'], 'Cluster 5': ['03'], 'Cluster 3': ['12', '13', '20', '21', '30'], 'Cluster 6': ['22', '23'], 'Cluster 4': ['31'], 'Cluster 1': ['32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[ 84   0  50  71   0   0   0]
+ [  0 103   0   4   0   0  52]
+ [ 13   0 278   0   0   1   0]
+ [ 20   0   1 372   0   0  12]
+ [  1   6   0  30   1   0  36]
+ [ 10   0   6  30   0   3   0]
+ [  1  36   0  54   0   0 145]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.65      0.41      0.50       205
+   Cluster 1       0.71      0.65      0.68       159
+   Cluster 2       0.83      0.95      0.89       292
+   Cluster 3       0.66      0.92      0.77       405
+   Cluster 4       1.00      0.01      0.03        74
+   Cluster 5       0.75      0.06      0.11        49
+   Cluster 6       0.59      0.61      0.60       236
+
+    accuracy                           0.69      1420
+   macro avg       0.74      0.52      0.51      1420
+weighted avg       0.71      0.69      0.66      1420
+
+Accuracy: 0.6943661971830986
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10'], 'Cluster 0': ['02', '11'], 'Cluster 5': ['03'], 'Cluster 4': ['12', '13', '21'], 'Cluster 6': ['20'], 'Cluster 3': ['22', '23', '31'], 'Cluster 7': ['30'], 'Cluster 1': ['32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[ 93   0  50   0  62   0   0   0]
+ [  0 102   0  54   3   0   0   0]
+ [ 13   0 278   0   0   1   0   0]
+ [  2  40   0 231  37   0   0   0]
+ [ 16   0   0  37 198   0   0   0]
+ [ 11   0   6   0  29   3   0   0]
+ [  9   0   0   2  79   0   0   1]
+ [  8   0   1   6  48   0   0   0]]
+
+Classification Report:
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+   Cluster 0       0.61      0.45      0.52       205
+   Cluster 1       0.72      0.64      0.68       159
+   Cluster 2       0.83      0.95      0.89       292
+   Cluster 3       0.70      0.75      0.72       310
+   Cluster 4       0.43      0.79      0.56       251
+   Cluster 5       0.75      0.06      0.11        49
+   Cluster 6       0.00      0.00      0.00        91
+   Cluster 7       0.00      0.00      0.00        63
+
+    accuracy                           0.64      1420
+   macro avg       0.51      0.46      0.44      1420
+weighted avg       0.59      0.64      0.59      1420
+
+Accuracy: 0.6373239436619719
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 8': ['00'], 'Cluster 2': ['01', '10'], 'Cluster 0': ['02', '11'], 'Cluster 5': ['03'], 'Cluster 4': ['12', '13', '21'], 'Cluster 6': ['20'], 'Cluster 3': ['22', '23', '31'], 'Cluster 7': ['30'], 'Cluster 1': ['32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[ 93   0  49   0  62   0   0   0   1]
+ [  0 102   0  54   3   0   0   0   0]
+ [ 13   0 209   0   0   0   0   0   6]
+ [  2  40   0 231  37   0   0   0   0]
+ [ 16   0   0  37 198   0   0   0   0]
+ [ 11   0   6   0  29   3   0   0   0]
+ [  9   0   0   2  79   0   0   1   0]
+ [  8   0   1   6  48   0   0   0   0]
+ [  0   0  44   0   0   1   0   0  19]]
+
+Classification Report:
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+   Cluster 0       0.61      0.45      0.52       205
+   Cluster 1       0.72      0.64      0.68       159
+   Cluster 2       0.68      0.92      0.78       228
+   Cluster 3       0.70      0.75      0.72       310
+   Cluster 4       0.43      0.79      0.56       251
+   Cluster 5       0.75      0.06      0.11        49
+   Cluster 6       0.00      0.00      0.00        91
+   Cluster 7       0.00      0.00      0.00        63
+   Cluster 8       0.73      0.30      0.42        64
+
+    accuracy                           0.60      1420
+   macro avg       0.51      0.43      0.42      1420
+weighted avg       0.57      0.60      0.56      1420
+
+Accuracy: 0.602112676056338
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 8': ['00'], 'Cluster 2': ['01', '10'], 'Cluster 0': ['02', '11'], 'Cluster 5': ['03'], 'Cluster 4': ['12', '21'], 'Cluster 9': ['13'], 'Cluster 6': ['20'], 'Cluster 3': ['22', '23', '31'], 'Cluster 7': ['30'], 'Cluster 1': ['32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[ 93   0  49   0  58   0   0   0   1   4]
+ [  0 102   0  56   0   0   0   0   0   1]
+ [ 13   0 209   0   0   0   0   0   6   0]
+ [  2  40   0 237  21   0   0   0   0  10]
+ [ 14   0   0  42 102   0   0   0   0  17]
+ [ 11   0   6   0  28   3   0   0   0   1]
+ [  9   0   0   2  68   0   0   1   0  11]
+ [  8   0   1   6  27   0   0   0   0  21]
+ [  0   0  44   0   0   1   0   0  19   0]
+ [  2   0   0  17  34   0   0   0   0  23]]
+
+Classification Report:
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+   Cluster 0       0.61      0.45      0.52       205
+   Cluster 1       0.72      0.64      0.68       159
+   Cluster 2       0.68      0.92      0.78       228
+   Cluster 3       0.66      0.76      0.71       310
+   Cluster 4       0.30      0.58      0.40       175
+   Cluster 5       0.75      0.06      0.11        49
+   Cluster 6       0.00      0.00      0.00        91
+   Cluster 7       0.00      0.00      0.00        63
+   Cluster 8       0.73      0.30      0.42        64
+   Cluster 9       0.26      0.30      0.28        76
+
+    accuracy                           0.55      1420
+   macro avg       0.47      0.40      0.39      1420
+weighted avg       0.53      0.55      0.52      1420
+
+Accuracy: 0.5549295774647888
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 8': ['00'], 'Cluster 2': ['01', '10'], 'Cluster 0': ['02', '11'], 'Cluster 5': ['03'], 'Cluster 4': ['12', '21'], 'Cluster 9': ['13'], 'Cluster 6': ['20'], 'Cluster 3': ['22', '23'], 'Cluster 7': ['30'], 'Cluster 10': ['31'], 'Cluster 1': ['32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[ 93   0   0  49   0  58   0   0   0   1   4]
+ [  0 103   0   0  53   2   0   0   0   0   1]
+ [  1   6   1   0  51   9   0   0   0   0   6]
+ [ 13   0   0 209   0   0   0   0   0   6   0]
+ [  1  36   0   0 177  18   0   0   0   0   4]
+ [ 14   0   0   0  26 118   0   0   0   0  17]
+ [ 11   0   0   6   0  28   3   0   0   0   1]
+ [  9   0   0   0   2  68   0   0   1   0  11]
+ [  8   0   0   1   6  27   0   0   0   0  21]
+ [  0   0   0  44   0   0   1   0   0  19   0]
+ [  2   0   0   0  11  40   0   0   0   0  23]]
+
+Classification Report:
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+   Cluster 0       0.61      0.45      0.52       205
+   Cluster 1       0.71      0.65      0.68       159
+  Cluster 10       1.00      0.01      0.03        74
+   Cluster 2       0.68      0.92      0.78       228
+   Cluster 3       0.54      0.75      0.63       236
+   Cluster 4       0.32      0.67      0.43       175
+   Cluster 5       0.75      0.06      0.11        49
+   Cluster 6       0.00      0.00      0.00        91
+   Cluster 7       0.00      0.00      0.00        63
+   Cluster 8       0.73      0.30      0.42        64
+   Cluster 9       0.26      0.30      0.28        76
+
+    accuracy                           0.53      1420
+   macro avg       0.51      0.37      0.35      1420
+weighted avg       0.53      0.53      0.47      1420
+
+Accuracy: 0.5253521126760563
+
+
+
+-----------------------------------
+--------------------------------
+--------------------------------
+-------------------------------
+
+
+
+
+
+
+F2
+
+
+
+
+
+RUNNING
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 0': ['00', '01', '02', '03', '10', '11', '12', '13', '20', '21', '23', '30'], 'Cluster 1': ['22', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[1699   53]
+ [ 141  327]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.92      0.97      0.95      1752
+   Cluster 1       0.86      0.70      0.77       468
+
+    accuracy                           0.91      2220
+   macro avg       0.89      0.83      0.86      2220
+weighted avg       0.91      0.91      0.91      2220
+
+Accuracy: 0.9126126126126126
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00', '01', '10', '21'], 'Cluster 0': ['02', '03', '11', '12', '13', '20', '23', '30'], 'Cluster 1': ['22', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[1004   53  100]
+ [ 140  327    1]
+ [ 154    0  441]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.77      0.87      0.82      1157
+   Cluster 1       0.86      0.70      0.77       468
+   Cluster 2       0.81      0.74      0.78       595
+
+    accuracy                           0.80      2220
+   macro avg       0.82      0.77      0.79      2220
+weighted avg       0.80      0.80      0.80      2220
+
+Accuracy: 0.7981981981981981
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00'], 'Cluster 3': ['01', '10', '21'], 'Cluster 0': ['02', '03', '11', '12', '13', '20', '23', '30'], 'Cluster 1': ['22', '31', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[1004   53    0  100]
+ [ 140  327    0    1]
+ [  14    0  133   34]
+ [ 140    0   29  245]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.77      0.87      0.82      1157
+   Cluster 1       0.86      0.70      0.77       468
+   Cluster 2       0.82      0.73      0.78       181
+   Cluster 3       0.64      0.59      0.62       414
+
+    accuracy                           0.77      2220
+   macro avg       0.77      0.72      0.75      2220
+weighted avg       0.77      0.77      0.77      2220
+
+Accuracy: 0.7698198198198198
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00'], 'Cluster 3': ['01', '10', '21'], 'Cluster 0': ['02', '03', '11', '12', '20', '23', '30'], 'Cluster 4': ['13', '31'], 'Cluster 1': ['22', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[797  45   0 100  44]
+ [  3 311   0   0   2]
+ [ 14   0 133  34   0]
+ [140   0  29 245   0]
+ [238  29   0   1  55]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Cluster 0       0.67      0.81      0.73       986
+   Cluster 1       0.81      0.98      0.89       316
+   Cluster 2       0.82      0.73      0.78       181
+   Cluster 3       0.64      0.59      0.62       414
+   Cluster 4       0.54      0.17      0.26       323
+
+    accuracy                           0.69      2220
+   macro avg       0.70      0.66      0.65      2220
+weighted avg       0.68      0.69      0.67      2220
+
+Accuracy: 0.6941441441441442
+
+(temp_venv) C:\Users\SWARAJ SONAVANE\Desktop\Thesis work>simple_svm_code.py
+1
+Current Cluster:
+{'Cluster 2': ['00'], 'Cluster 5': ['01', '10'], 'Cluster 0': ['02', '03', '11', '12', '20', '23', '30'], 'Cluster 4': ['13', '31'], 'Cluster 3': ['21'], 'Cluster 1': ['22', '32', '33']}
+Returned from here
+1
+1
+1
+Confusion Matrix:
+[[820  45   0   0  44  77]
+ [  3 311   0   0   2   0]
+ [ 14   0 133   0   0  34]
+ [130   0   0   0   0  44]
+ [239  29   0   0  55   0]
+ [ 27   0  29   0   0 184]]
+
+Classification Report:
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\SWARAJ SONAVANE\Desktop\temp_venv\lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+   Cluster 0       0.67      0.83      0.74       986
+   Cluster 1       0.81      0.98      0.89       316
+   Cluster 2       0.82      0.73      0.78       181
+   Cluster 3       0.00      0.00      0.00       174
+   Cluster 4       0.54      0.17      0.26       323
+   Cluster 5       0.54      0.77      0.64       240
+
+    accuracy                           0.68      2220
+   macro avg       0.56      0.58      0.55      2220
+weighted avg       0.62      0.68      0.62      2220
+
+Accuracy: 0.677027027027027

@@ -1,0 +1,96 @@
+File Name:f1\predicted_digits_00_f1.csv
+Max value: 25.7
+Min value: 24.22
+mean: 24.63224025974026
+Varience: 0.010730144041626127
+-----------------------------------------------------
+File Name:f1\predicted_digits_01_f1.csv
+Max value: 25.7
+Min value: 24.22
+mean: 24.740452586206896
+Varience: 0.015607777684782166
+-----------------------------------------------------
+File Name:f1\predicted_digits_02_f1.csv
+Max value: 25.7
+Min value: 24.04
+mean: 24.79863064396743
+Varience: 0.021924567919510925
+-----------------------------------------------------
+File Name:f1\predicted_digits_03_f1.csv
+Max value: 25.96
+Min value: 20.84
+mean: 24.829684278350516
+Varience: 0.044774303866145566
+-----------------------------------------------------
+File Name:f1\predicted_digits_10_f1.csv
+Max value: 25.96
+Min value: 20.84
+mean: 24.81512230919765
+Varience: 0.03654384210606981
+-----------------------------------------------------
+File Name:f1\predicted_digits_11_f1.csv
+Max value: 29.96
+Min value: 20.84
+mean: 24.855197026022303
+Varience: 0.047276588165194575
+-----------------------------------------------------
+File Name:f1\predicted_digits_12_f1.csv
+Max value: 29.96
+Min value: 20.84
+mean: 24.887356396866842
+Varience: 0.05007665256762045
+-----------------------------------------------------
+File Name:f1\predicted_digits_13_f1.csv
+Max value: 51.04
+Min value: 15.26
+mean: 24.918990398603434
+Varience: 0.27744086050149996
+-----------------------------------------------------
+File Name:f1\predicted_digits_20_f1.csv
+Max value: 51.04
+Min value: 15.26
+mean: 24.94158807035432
+Varience: 0.4239790429173107
+-----------------------------------------------------
+File Name:f1\predicted_digits_21_f1.csv
+Max value: 51.04
+Min value: 15.26
+mean: 24.961728229236623
+Varience: 0.37624497493736975
+-----------------------------------------------------
+File Name:f1\predicted_digits_22_f1.csv
+Max value: 53.1
+Min value: 15.26
+mean: 25.01452584531675
+Varience: 0.4963404651239209
+-----------------------------------------------------
+File Name:f1\predicted_digits_23_f1.csv
+Max value: 53.1
+Min value: 15.26
+mean: 25.05539385376192
+Varience: 0.700876854214116
+-----------------------------------------------------
+File Name:f1\predicted_digits_30_f1.csv
+Max value: 53.1
+Min value: 15.26
+mean: 25.06857599730685
+Varience: 0.9139138641308445
+-----------------------------------------------------
+File Name:f1\predicted_digits_31_f1.csv
+Max value: 53.1
+Min value: 15.15
+mean: 25.078969977642924
+Varience: 0.8874356902021717
+-----------------------------------------------------
+File Name:f1\predicted_digits_32_f1.csv
+Max value: 53.1
+Min value: 15.15
+mean: 25.09949970131422
+Varience: 0.8382729535473342
+-----------------------------------------------------
+File Name:f1\predicted_digits_33_f1.csv
+Max value: 53.1
+Min value: 15.15
+mean: 25.122667981405833
+Varience: 0.8002617735181986
+-----------------------------------------------------
